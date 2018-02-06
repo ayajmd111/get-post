@@ -1,0 +1,33 @@
+[
+    {
+      "userId": 101,
+      "title": "java",
+      "place": "hyd"
+     
+    },
+     {
+      "userId": 102,
+      "title": "javascript",
+      "place": "bang"
+    },
+    {
+      "userId": 103,
+      "title": "Angular JS",
+       "place": "mumbai"
+    },
+    {
+      "userId": 104,
+      "title": "Nodejs",
+      "place": "Chennai"
+    },
+    {
+      "userId": 105,
+      "title": ".net",
+       "place": "puna"
+    },
+    {
+      "userId": 106,
+      "title": "oracle",
+      "place": "Delhi"
+    }
+  ]

@@ -1,0 +1,39 @@
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="container ">
+    <form class="form-horizontal">
+
+        <div class="col-md-6 col-md-offset-3 reg">
+            <div class="form-group">
+                <label for="Prefered Vendor" class="col-sm-4 control-label">userName:</label>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" name="userName"
+                    [(ngModel)]="ayaj.userName" 
+                    id="userName" placeholder="userName">
+
+                </div>
+            </div>
+            <div class="form-group" >
+                <label for="Vendor Billing Address" class="col-sm-4 control-label">password:</label>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" id="password" placeholder="password" 
+                    name="password" 
+                    [(ngModel)]="ayaj.password">
+                    
+                </div>
+            </div>
+       
+
+        <div class="form-group">
+            <div class="col-md-offset-5">
+                <button class="btn btn-success" type="submit" (click)="login()">submit</button>&emsp;&emsp;
+                <button class="btn btn-danger" type="reset">cancel</button>
+
+            </div>
+        </div>
+      </div>
+    </form>
+</div>

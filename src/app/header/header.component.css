@@ -1,0 +1,49 @@
+/* body
+{
+    background:#edeced;
+          margin: 0;
+           padding:0;
+}
+clearfix 
+{
+clear:both;
+} */
+.col
+{
+  width:940px;  
+   margin: 0 auto;
+ background:#fff;
+
+}
+
+li{
+  background:red;
+  float: left;
+  list-style-type: none;
+   text-align: center;
+  margin-top: 25px;
+}
+
+li>a{
+  float:left;
+  text-decoration: none;
+  margin-top: 25px;
+  color: white;
+ }
+ .one
+ {
+   margin-left: 15px;
+   padding-bottom: 15px;
+ }
+ .two
+ {
+   margin-left: 430px;
+   padding-bottom: 15px;
+ }
+ .three
+ {
+   margin-left: 15px;
+    padding-bottom: 15px;
+    margin-right: 15px;
+ }
+
